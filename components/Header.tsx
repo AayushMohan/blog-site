@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Banner from "./Banner";
 
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
           height={50}
           alt="logo"
         />
-        <h1>The BLOG Site</h1>
+        {/* <h1>The BLOG Site</h1> */}
       </div>
       <div></div>
     </header>

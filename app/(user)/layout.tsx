@@ -9,10 +9,8 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>
-        {/* Header */}
+      <body className="flex items-center justify-around">
         <Header />
-        {/* Banner */}
         <Banner />
         {children}
       </body>
