@@ -13,7 +13,7 @@ const Header = () => {
           height={50}
           alt="logo"
         />
-        {/* <h1>The BLOG Site</h1> */}
+        <h1>The BLOG Site</h1>
       </div>
       <div></div>
     </header>
