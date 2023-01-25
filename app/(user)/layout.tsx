@@ -9,8 +9,8 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className="flex items-center justify-around">
-        <Header />
+      <body className="flex items-center justify-between">
+        {/* <Header /> */}
         <Banner />
         {children}
       </body>
