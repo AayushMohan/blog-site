@@ -29,4 +29,10 @@ export const myTheme = buildLegacyTheme({
  "--default-button-success-color": props["--my-green"],
  "--default-button-warning-color": props["--my-yellow"],
  "--default-button-danger-color": props["--my-red"],
+
+ // State
+ "--state-info-color": props["--default-yellow"],
+ "--state-success-color": props["--my-green"],
+ "--state-warning-color": props["--my-yellow"],
+ "--state-danger-color": props["--my-red"]
 })
