@@ -11,8 +11,7 @@ const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!
 export default defineConfig({
   basePath: '/studio',
   name: 'Aayush_Content_Studio',
-  title: 'sanity blog',
-
+  title: 'Content Studio',
   projectId,
   dataset,
 
@@ -23,7 +22,6 @@ export default defineConfig({
   },
   studio:{
     components:{
-      // logo: Logo,
       navbar: StudioNavbar
     }
   },
