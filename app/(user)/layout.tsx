@@ -1,4 +1,6 @@
-import "../styles/globals.css";
+import Banner from "../../components/Banner";
+import Header from "../../components/Header";
+import "../../styles/globals.css";
 
 export default function RootLayout({
   children,
@@ -7,8 +9,13 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <head />
-      <body>{children}</body>
+      <body>
+        {/* Header */}
+        <Header />
+        {/* Banner */}
+        <Banner />
+        {children}
+      </body>
     </html>
   );
 }
