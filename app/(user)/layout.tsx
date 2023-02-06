@@ -10,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className="flex items-center justify-between">
+      <body className="">
         <Header />
         <Banner />
         <Body />
