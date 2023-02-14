@@ -5,7 +5,8 @@ const Body = () => {
   return (
     <div>
       <h1>Main Container</h1>
-      <Image src="" width={20} height={20} alt="The Main Image for the Blog" />
+      {/* <Image src="" width={20} height={20} alt="The Main Image for the Blog" /> */}
+      <h1>The Apple VR headset is Finally here!</h1>
     </div>
   );
 };
