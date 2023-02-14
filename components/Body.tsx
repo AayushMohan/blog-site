@@ -14,6 +14,12 @@ const Body = () => {
         quis sit fugit unde, dicta eligendi facilis esse officia amet!
         Repellendus, voluptatum. Lorem ipsum dolor sit amet consectetur
       </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+        asperiores minus fugit exercitationem laboriosam, commodi eius optio
+        nulla, aliquam corporis tempora illo quia enim consectetur maxime.
+        Ratione fuga doloribus et non voluptatem! Earum, ad. Aliquid, sit.
+      </p>
     </div>
   );
 };
