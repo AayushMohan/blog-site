@@ -1,6 +1,8 @@
 import { previewData } from "next/headers";
 import { groq } from "next-sanity";
 
+const query = groq`*[_type == "post" && slug.current == $slug][0]`;
+
 const page = () => {
   if (previewData()) {
     return <div>Preview Mode</div>;
