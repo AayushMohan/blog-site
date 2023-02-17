@@ -1,7 +1,11 @@
 import { previewData } from "next/headers";
 import { groq } from "next-sanity";
 
-const query = groq`*[_type == "post" && slug.current == $slug][0]`;
+const query = groq`*[_type == "post"{
+  ...,
+  author->,
+  categories[]->,
+} | order(_createdAt desc))`;
 
 const page = () => {
   if (previewData()) {
