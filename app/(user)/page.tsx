@@ -28,6 +28,7 @@ const page = async () => {
   console.log(posts);
   return (
     <div>
+      {/* Blog List */}
       <h1>Not in Preview Mode</h1>
     </div>
   );
