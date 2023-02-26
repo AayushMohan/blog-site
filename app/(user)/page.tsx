@@ -2,6 +2,7 @@ import { previewData } from "next/headers";
 import { groq } from "next-sanity";
 import { client } from "../../lib/sanity.client";
 import { PreviewSuspense } from "next-sanity/preview";
+import PreviewBlogList from "../../components/PreviewBlogList";
 
 const query = groq`*[_type == "post"{
   ...,
@@ -19,7 +20,7 @@ const page = async () => {
           </div>
         }
       >
-        <div></div>
+        <PreviewBlogList />
       </PreviewSuspense>
     );
   }
