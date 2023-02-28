@@ -20,7 +20,7 @@ const page = async () => {
           </div>
         }
       >
-        <PreviewBlogList />
+        <PreviewBlogList query={query} />
       </PreviewSuspense>
     );
   }
