@@ -1,5 +1,6 @@
 import React from "react";
 import { usePreview } from "next-sanity/preview";
+import BlogList from "./BlogList";
 
 type Props = {
   query: string;
@@ -7,8 +8,8 @@ type Props = {
 
 const PreviewBlogList = ({ query }: Props) => {
   const posts = usePreview(null, query);
-  console.log("LOADING posts...", posts);
-  return <div></div>;
+
+  return <BlogList posts={posts} />;
 };
 
 export default PreviewBlogList;

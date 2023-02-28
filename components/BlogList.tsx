@@ -1,6 +1,10 @@
 import React from "react";
 
-const BlogList = () => {
+type Props = {
+  posts: Post[];
+};
+
+const BlogList = ({ posts }: Props) => {
   return <div>BlogList</div>;
 };
 
