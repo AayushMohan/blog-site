@@ -1,11 +1,12 @@
 import React from "react";
 import { UsePreview } from "next-sanity/preview";
 
-type props = {
+type Props = {
   query: string;
 };
-const PreviewBlogList = () => {
-  return <div>PreviewBlogList</div>;
+
+const PreviewBlogList = ({ query }: Props) => {
+  return <div></div>;
 };
 
 export default PreviewBlogList;
