@@ -1,3 +1,5 @@
+import { Slug } from "sanity";
+
 type Base = {
  _createdAt: string;
  _id: string;
@@ -11,4 +13,5 @@ interface Post extends Base {
  body: Block[];
  categories: Category[];
  mainImage: Image;
+ slug: Slug;
 }
