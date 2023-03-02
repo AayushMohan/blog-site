@@ -10,4 +10,5 @@ interface Post extends Base {
  author: Author;
  body: Block[];
  categories: Category[];
+ mainImage: Image;
 }
