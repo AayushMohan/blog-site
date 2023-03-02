@@ -5,3 +5,7 @@ type Base = {
  _type: string;
  _updatedAt: string;
 }
+
+interface Post extends Base {
+ author: Author;
+}
