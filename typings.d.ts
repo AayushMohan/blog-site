@@ -14,4 +14,6 @@ interface Post extends Base {
  categories: Category[];
  mainImage: Image;
  slug: Slug;
+ title: string
+
 }
