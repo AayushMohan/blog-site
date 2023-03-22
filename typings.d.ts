@@ -20,4 +20,5 @@ interface Post extends Base {
 
 interface Author extends Base {
  bio: Block[];
+ image: Image;
 }
